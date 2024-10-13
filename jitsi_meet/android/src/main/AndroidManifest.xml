@@ -3,11 +3,12 @@
     <application>
         <activity
             android:name=".JitsiMeetPluginActivity"
+            android:exported="true"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
             android:supportsPictureInPicture="true"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"            
             android:windowSoftInputMode="adjustResize">
         </activity>
     </application>
