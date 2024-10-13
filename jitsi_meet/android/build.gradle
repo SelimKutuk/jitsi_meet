@@ -28,8 +28,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 29
-
+    compileSdkVersion 34
+    namespace = "com.gunschu.jitsi_meet"
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
