@@ -11,5 +11,8 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"            
             android:windowSoftInputMode="adjustResize">
         </activity>
+        <service
+            android:name="org.jitsi.meet.sdk.ConnectionService"
+            android:exported="true" /> 
     </application>
 </manifest>
